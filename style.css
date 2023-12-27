@@ -1,0 +1,131 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+/* main page */
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+    margin:0;
+    padding-top: 100px;
+    background-color: #D2E0FB;
+    text-align: center;
+    font-family: 'Rubik Doodle Shadow';
+    font-size: 3rem;
+}
+.mainpage>img{
+    height: 75%;
+
+}
+
+/* profile page */
+.profile{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F3CC;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.profile>img{
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+.profile .christian{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+/* contries page */
+.countries{
+    background-color: #D7E5CA;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.countries>h2{
+    font-size: 3rem;
+    font-family: Rubik Maps;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.card-containter{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;    
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+.country-card{
+    background-color:bisque;
+    padding:5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius:5%;
+    font-family: 'Sono', sans-serif;
+    width: 18%;
+}
+.korea>img{
+    height: 120px;
+}
+.china>img{
+    height: 110px;
+}
+.us>img{
+    height: 100px;
+}
+
+/* skills page */
+.skillpage{
+    background-color: #D2E0FB;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.skillpage h2{
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 7%;
+    font-weight: bolder;
+}
+.skill-card{
+    padding:15px;
+    margin: 15px;
+    margin-left:8%;
+    margin-right: 8%;
+}
+.skill-card h4{
+    font-size: 2rem;
+    color:#11235A;
+}
+.skill-card img{
+    float:left;
+    height: 200px;
+    margin-right: 30px;
+}
+.skill-card p{
+    font-size: 1rem;
+    font-family: 'Sono', sans-serif;
+}
+
+/* footer */
+.footer{
+    font-size: 1.2rem;
+    display: inline-flex;
+    justify-content: right;
+}
+.footer img{
+    float: right;
+}
